@@ -4,7 +4,7 @@ import {  useCSVReader } from "react-papaparse";
 import { useAccount } from "wagmi";
 import { useState, useEffect } from "react";
 import { VESTING_ADDRESS, VESTING_ABI, TOKEN_ADDRESS } from "../context/constants";
-import { getContract } from "../utils/web3.js";
+import { getContract } from "../utils/web3";
 import { ethers } from "ethers";
 import { setBlockGasLimit } from "viem/actions";
 declare global {
