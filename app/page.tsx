@@ -433,8 +433,8 @@ return (
     {/* --- NAVBAR --- */}
     <nav className="w-full p-5 flex justify-between items-center border-b border-white/5 bg-slate-900/80 backdrop-blur-xl sticky top-0 z-50">
       <div className="flex items-center gap-3">
-        <div className="w-10 h-10 bg-gradient-to-br from-cyan-400 to-blue-600 rounded-xl shadow-lg shadow-cyan-500/20 flex items-center justify-center font-black text-slate-900">K</div>
-        <span className="text-2xl font-black tracking-tighter bg-clip-text text-transparent bg-gradient-to-r from-white to-slate-400">KONCOIN</span>
+        <div className="w-10 h-10 bg-gradient-to-br from-cyan-400 to-blue-600 rounded-xl shadow-lg shadow-cyan-500/20 flex items-center justify-center font-black text-slate-900">V</div>
+        <span className="text-2xl font-black tracking-tighter bg-clip-text text-transparent bg-gradient-to-r from-white to-slate-400">VESTFLOW</span>
       </div>
       <ConnectKitButton showBalance={true} />
     </nav>
