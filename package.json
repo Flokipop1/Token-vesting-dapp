@@ -9,9 +9,15 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@tanstack/react-query": "^5.90.16",
+    "connectkit": "^1.9.1",
+    "ethers": "^6.16.0",
     "next": "16.1.1",
     "react": "19.2.3",
-    "react-dom": "19.2.3"
+    "react-dom": "19.2.3",
+    "react-papaparse": "^4.4.0",
+    "viem": "^2.43.5",
+    "wagmi": "^3.1.4"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
