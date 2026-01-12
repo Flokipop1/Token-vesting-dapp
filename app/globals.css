@@ -24,17 +24,3 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
-
-/* --- ConnectKit Mobile Fix --- */
-/* This ensures the modal doesn't overflow the viewport height */
-[data-rk] div[class*="ck-modal"] {
-  max-height: 85vh !important;
-  overflow-y: auto !important;
-  -webkit-overflow-scrolling: touch;
-}
-
-/* Forces the disconnect portal to stay within viewable bounds */
-[data-rk] {
-  position: relative;
-  z-index: 99999;
-}
