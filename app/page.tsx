@@ -312,7 +312,7 @@ async function handleClaim() {
     const contract = new ethers.Contract(VESTING_ADDRESS, VESTING_ABI, signer);
     
     
-    const tx = await contract.claim({gasLimit: 200000});
+    const tx = await contract.claim({gasLimit: 300000});
     
     setStatus("Transaction Pending...");
     await tx.wait();
