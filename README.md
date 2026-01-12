@@ -18,8 +18,8 @@ A high-performance, gas-optimized decentralized application (dApp) for managing 
 - Role-Based UI: Automatic detection of the 'Owner' wallet to unlock administrative tools and contract management panels.
 - Provider Stability: Built-in handling for RPC timeouts and network switching.
 
-##  Live Demo
-[INSERT YOUR NETLIFY LINK HERE]
+##  Live Testnet Demo
+https://vocal-rugelach-9f9a9a.netlify.app/
 
 ## 🛡 Security & Optimization
 - Human-Readable ABIs: Improved maintainability and smaller bundle size.
