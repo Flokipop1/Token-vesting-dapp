@@ -20,7 +20,7 @@ A high-performance, gas-optimized decentralized application (dApp) for managing 
 
 ##  Live Testnet Demo
 https://vestflow.netlify.app/
-for better experience on mobile, please open on metamask.
+for better experience on mobile, please open on the inbuilt metamask browser.
 
 ## 🛡 Security & Optimization
 - Human-Readable ABIs: Improved maintainability and smaller bundle size.
