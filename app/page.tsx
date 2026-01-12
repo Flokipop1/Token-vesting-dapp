@@ -312,7 +312,7 @@ async function handleClaim() {
     const contract = new ethers.Contract(VESTING_ADDRESS, VESTING_ABI, signer);
     
     
-    const tx = await contract.claim({setBlockGasLimit: 200000});
+    const tx = await contract.claim({gasLimit: 200000});
     
     setStatus("Transaction Pending...");
     await tx.wait();
@@ -429,7 +429,7 @@ const totalTokensToDistribute = csvBeneficiaries.reduce((sum, b) => {
 }, 0);
 
 return (
-  <main className="min-h-screen bg-[#0f172a] text-white font-sans selection:bg-cyan-500/30">
+  <main className="min-h-screen bg-[#0f172a] text-white font-sans selection:bg-cyan-500/30 isolate">
     {/* --- NAVBAR --- */}
     <nav className="w-full p-5 flex justify-between items-center border-b border-white/5 bg-slate-900/80 backdrop-blur-xl sticky top-0 z-50">
       <div className="flex items-center gap-3">
@@ -449,7 +449,7 @@ return (
       ) : !isConnected ? (
         /* --- 2. PUBLIC VIEW --- */
         <div className="py-20 text-center">
-          <h1 className="text-7xl font-black mb-6 tracking-tight leading-none text-white">
+          <h1 className="text-5xl font-black mb-6 tracking-tight leading-tight text-white">
             Unlock your <br/><span className="text-cyan-400">future value.</span>
           </h1>
           <p className="text-slate-400 text-lg max-w-lg mx-auto leading-relaxed">
